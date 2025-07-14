@@ -1,16 +1,11 @@
-import IconLinks from './IconLinks';
-
-export default function Footer(){
+export default function FooterTop(){
     return (
-        <>
-            <IconLinks/>
-            <footer className='z-2'>
-                <div className="footer_top">
+        <div className="footer_top">
                     <div className="container d-flex justify-content-between">
-                        <div className="links">
+                        <div className="links py-4">
                             <div className="row">
                                 <div className="col p-0 text-light">
-                                    <h4>DC COMICS</h4>
+                                    <h4 className="">DC COMICS</h4>
                                     <ul className='list-unstyled'>
                                         <li><a href="#">lorem</a></li>
                                         <li><a href="#">lorem</a></li>
@@ -20,7 +15,7 @@ export default function Footer(){
                                         <li><a href="#">lorem</a></li>
                                         <li><a href="#">lorem</a></li>
                                     </ul>
-                                    <h4>SHOP</h4>
+                                    <h4 className="">SHOP</h4>
                                     <ul className='list-unstyled'>
                                         <li><a href="#">lorem</a></li>
                                         <li><a href="#">lorem</a></li>
@@ -30,7 +25,7 @@ export default function Footer(){
                                 </div>
                                 <div className="col p-0 text-light">
                                 
-                                    <h4>DC COMICS</h4>
+                                    <h4 className="">DC COMICS</h4>
                                     <ul className='list-unstyled'>
                                         <li><a href="#">lorem</a></li>
                                         <li><a href="#">lorem</a></li>
@@ -47,7 +42,7 @@ export default function Footer(){
                                 </div>
                                 <div className="col p-0 text-light"> 
                                     
-                                    <h4>SHOP</h4>
+                                    <h4 className="px-2">SHOP</h4>
                                     <ul className='list-unstyled'>
                                         <li><a href="#">lorem</a></li>
                                         <li><a href="#">lorem</a></li>
@@ -62,10 +57,5 @@ export default function Footer(){
                         <img className='z-1' src="/img/dc-logo-bg.png" alt="" />
                     </div>
                 </div>
-                <div className="footer_bottom z-3 position-relative bg-dark">
-                    SIGN UP NOW
-                </div>
-            </footer>
-        </>
     )
 }

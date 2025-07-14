@@ -1,6 +1,4 @@
-*{
-  border: 1px dashed red;
-}
+
 
 body{
   font-family: 'Open Sans';
@@ -33,10 +31,12 @@ header{
 .footer_top{
   background-image: url('/public/img/footer-bg.jpg');
   position: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
   img{
     
-    margin: -4rem 0;
-    width: 75;
+    margin: -3.5rem 0;
     z-index: 1;
     
   }
@@ -51,4 +51,9 @@ header{
     }
   }
   
+}
+
+
+.footer_bottom{
+  background-color: #303030;
 }
