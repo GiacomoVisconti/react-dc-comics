@@ -1,9 +1,7 @@
 
-
-
 export default function IconLinks(){
     return(
-        <div className="bg-primary">
+        <div className="bg-primary z-3 position-relative">
             <div className="d-flex justify-content-between gap-4 container p-5">
                 
                 <a className="text-light d-flex gap-3 align-items-center" href="#">

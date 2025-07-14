@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Header from './assets/components/Header';
 import AppMain from './assets/components/AppMain';
-import IconLinks from './assets/components/IconLinks';
+import Footer from './assets/components/Footer';
+
 
 
 
@@ -12,7 +13,8 @@ function App() {
     <>
       <Header/>
       <AppMain/>
-      <IconLinks/>
+      <Footer/>
+      
     </>
     
 

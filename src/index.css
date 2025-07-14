@@ -5,7 +5,7 @@
 body{
   font-family: 'Open Sans';
   padding: 0;
-
+  
 
 }
 
@@ -30,3 +30,25 @@ header{
   }
 }
 
+.footer_top{
+  background-image: url('/public/img/footer-bg.jpg');
+  position: relative;
+  img{
+    
+    margin: -4rem 0;
+    width: 75;
+    z-index: 1;
+    
+  }
+
+  .links{
+    h4{
+      font-size: 1.2rem;
+    }
+    a{
+      color: darkgray;
+      font-size: 0.8rem;
+    }
+  }
+  
+}
