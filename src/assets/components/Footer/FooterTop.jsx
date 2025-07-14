@@ -42,7 +42,7 @@ export default function FooterTop(){
                                 </div>
                                 <div className="col p-0 text-light"> 
                                     
-                                    <h4 className="px-2">SHOP</h4>
+                                    <h4 className="">SHOP</h4>
                                     <ul className='list-unstyled'>
                                         <li><a href="#">lorem</a></li>
                                         <li><a href="#">lorem</a></li>
