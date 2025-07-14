@@ -1,3 +1,29 @@
+*{
+  border: 1px dashed red;
+}
+
 body{
   font-family: 'Open Sans';
+  padding: 0;
+  background-color: #030303;
+
 }
+
+
+header{
+  padding: 1rem 0;
+  a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 4rem 0;
+    
+  }
+
+  .active{
+    color: #0937e5;
+    border-bottom: 5px solid #0937e5;
+  }
+}
+
