@@ -11,10 +11,8 @@ export default function Main(){
                 <div className="container">
                     <MainContent/>
                 </div>
-                <div className="container">
-                    <div className=" position-absolute top-0 translate-middle">
-                        <button type="button" className="series_btn btn btn-primary fs-4 ">CURRENT SERIES</button>
-                    </div>
+                <div className="container position-relative z-3">
+                   
                 </div>
             </div>
             
