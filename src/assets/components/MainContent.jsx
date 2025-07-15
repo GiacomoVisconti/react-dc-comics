@@ -6,9 +6,9 @@ export default function MainContent(){
         <>
 
                     
-            <h5 type="button" className="btn btn-primary fs-4 ">CURRENT SERIES</h5>
+            <h5 className="comics_section_title btn btn-primary fs-4 ">CURRENT SERIES</h5>
                     
-            <div className="py-5 text-light">
+            <div className="py-3 text-light">
                 <div className="row d-flex">
 
                     {comics.map(({id, title, series, thumb})=>{
@@ -30,6 +30,10 @@ export default function MainContent(){
                     })}
 
                 </div>
+            </div>
+
+            <div className="d-flex justify-content-center align-items-center py-5">
+                <button className="btn btn-primary fs-6">LOAD MORE</button>
             </div>
         </>
 

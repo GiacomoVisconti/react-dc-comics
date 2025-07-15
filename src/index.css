@@ -58,8 +58,11 @@ header{
   background-color: #303030;
 }
 
-.jumbotron{
-  max-height: 400px;
+.comic_jumbotron{
+  background-image: url('../public/img/jumbotron.jpg');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .comics_card{
@@ -71,4 +74,8 @@ header{
   aspect-ratio: 1;
   object-fit: cover;
   object-position: top;
+}
+
+.comics_section_title{
+  margin-top: -2rem;
 }
