@@ -57,3 +57,17 @@ header{
 .footer_bottom{
   background-color: #303030;
 }
+
+.jumbotron{
+  max-height: 400px;
+}
+
+.comics_card{
+  height: 75%;
+}
+
+.comics_img{
+  width: 10rem;
+  height: 10rem;  
+  
+}
