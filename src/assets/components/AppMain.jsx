@@ -1,7 +1,9 @@
 import Jumbotron from './Jumbotron'
 import MainContent from './MainContent'
 
-export default function Main(){
+export default function Main(props){
+    
+    
     return (
         
     
@@ -9,7 +11,7 @@ export default function Main(){
             <Jumbotron/>
             <div className="bg-dark z-3 position-relative">
                 <div className="container">
-                    <MainContent/>
+                    <MainContent comics={props.comics}/>
                 </div>
                 <div className="container position-relative z-3">
                 </div>

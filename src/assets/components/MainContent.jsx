@@ -1,7 +1,7 @@
-import comics from "../data/comics"
+
 import Card from "./Card"
 
-export default function MainContent(){
+export default function MainContent(props){
     return (
 
         <>
@@ -12,10 +12,10 @@ export default function MainContent(){
             <div className="py-3 text-light">
                 <div className="row d-flex">
 
-                    {comics.map(({id, title, series, thumb})=>{
+                    {props.comics.map(({id, title, series, thumb})=>{
 
                         return (
-                            <Card id={id} title={title} series={series} thumb={thumb} />
+                            <Card key={id} title={title} series={series} thumb={thumb} />
                         )
 
                     })}

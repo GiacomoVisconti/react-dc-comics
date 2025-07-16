@@ -3,7 +3,7 @@ export default function Jumbotron(){
         <>
     
             <div className="comic_jumbotron">
-                ciao
+                
             </div>
             
         </>
