@@ -1,4 +1,5 @@
 import comics from "../data/comics"
+import Card from "./Card"
 
 export default function MainContent(){
     return (
@@ -14,17 +15,7 @@ export default function MainContent(){
                     {comics.map(({id, title, series, thumb})=>{
 
                         return (
-                            <div className="col-lg-2 col-md-4 col-sm-6 gap-4">
-                                <div className="comics_card">
-                                    
-                                    <img key={id} className="comics_img" src={thumb} alt={title} /> 
-                                    
-                                    <div className="bg-dark text-light py-2">
-                                        <p className="card-title fs-6">{series.toUpperCase()}</p>
-                                
-                                    </div>
-                                </div>
-                            </div>
+                            <Card id={id} title={title} series={series} thumb={thumb} />
                         )
 
                     })}

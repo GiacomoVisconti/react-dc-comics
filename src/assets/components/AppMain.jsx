@@ -12,7 +12,6 @@ export default function Main(){
                     <MainContent/>
                 </div>
                 <div className="container position-relative z-3">
-                   
                 </div>
             </div>
             
